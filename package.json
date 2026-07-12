@@ -1,9 +1,10 @@
 {
-  "name": "p-bot-performance",
+  "name": "p-bot-web",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^14.14.1",
+    "express": "^4.18.2",
     "dotenv": "^16.4.0"
   },
   "scripts": {
