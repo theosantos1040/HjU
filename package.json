@@ -1,13 +1,23 @@
 {
-  "name": "p-bot-web",
+  "name": "bot-discord-controle",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Bot Discord com sistema de ligação/desligação e painel web",
+  "main": "bot_completo.js",
+  "scripts": {
+    "iniciar": "node bot_completo.js",
+    "dev": "node --watch bot_completo.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "controle",
+    "painel"
+  ],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "discord.js": "^14.14.1",
     "express": "^4.18.2",
     "dotenv": "^16.4.0"
-  },
-  "scripts": {
-    "start": "node index.js"
   }
 }
