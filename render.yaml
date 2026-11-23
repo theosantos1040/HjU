@@ -1,0 +1,16 @@
+services:
+  - type: worker
+    name: p-bot-service
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_VERSION
+        value: 18.16.0
+      - key: TOKEN
+        sync: false
+      - key: CLIENT_ID
+        sync: false
+      - key: PORTA
+        value: 3000
